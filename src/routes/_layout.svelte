@@ -1,6 +1,4 @@
 <script>
-    import UserObserver from '../components/UserObserver.svelte';
-    import Login from '../components/Login.svelte';
     import TopAppBar from '../components/TopAppBar.svelte';
 </script>
 
@@ -28,7 +26,6 @@
         "content content content"
     }
 </style>
-<UserObserver />
 <div id="layout-grid">
     <div id="top-bar">
         <TopAppBar />

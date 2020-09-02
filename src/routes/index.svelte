@@ -1,12 +1,7 @@
 <script>
-    import { currentUser } from "./../stores/user.js";
     import { onMount } from "svelte";
     onMount(() => {
-        if ( !$currentUser ) {
-            
-        }
-        else {
-        }
+
     })
 </script>
 <style>
